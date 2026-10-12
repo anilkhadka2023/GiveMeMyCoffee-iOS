@@ -1,0 +1,9 @@
+// Build settings shared by every configuration.
+//
+// The Google Places key lives in Secrets.xcconfig (git-ignored), the iOS
+// counterpart of PLACES_API_KEY in the Android project's local.properties.
+// Copy Secrets.example.xcconfig to Secrets.xcconfig and fill it in.
+
+PLACES_API_KEY =
+
+#include? "Secrets.xcconfig"
